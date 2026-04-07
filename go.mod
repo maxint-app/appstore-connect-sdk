@@ -1,4 +1,4 @@
-module github.com/maxint-apps/appstore-connect-sdk
+module github.com/maxint-app/appstore-connect-sdk
 
 go 1.25.7
 
