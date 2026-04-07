@@ -13,13 +13,13 @@ This package provides typed request/response models and a generated HTTP client 
 ## Installation
 
 ```bash
-go get github.com/maxint-apps/appstore-connect-sdk
+go get github.com/maxint-app/appstore-connect-sdk
 ```
 
 Import:
 
 ```go
-import appstore_connect_sdk "github.com/maxint-apps/appstore-connect-sdk"
+import appstore_connect_sdk "github.com/maxint-app/appstore-connect-sdk"
 ```
 
 ## Authentication
@@ -56,7 +56,7 @@ import (
 	"log"
 	"net/http"
 
-	appstore_connect_sdk "github.com/maxint-apps/appstore-connect-sdk"
+	appstore_connect_sdk "github.com/maxint-app/appstore-connect-sdk"
 )
 
 func bearerTokenEditor(token string) appstore_connect_sdk.RequestEditorFn {
