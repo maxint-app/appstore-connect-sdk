@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/oapi-codegen/oapi-codegen/HEAD/configuration-schema.json
+package: appstore_connect_sdk
+output: appstore_connect_sdk.gen.go
+generate:
+  models: true
+  client: true
